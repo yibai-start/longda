@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>隆达 | 电子产品商店</title>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#" class="logo" data-en="Longda" data-zh="隆达">隆达</a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home" data-en="Home" data-zh="首页">Home</a></li>
+                <li><a href="#prices" data-en="Prices" data-zh="价格">Prices</a></li>
+                <li><a href="#features" data-en="Features" data-zh="功能">Features</a></li>
+                <li><a href="#products" data-en="Products" data-zh="产品">Products</a></li>
+                <li><a href="#services" data-en="Services" data-zh="服务">Services</a></li>
+                <li><a href="#about" data-en="About" data-zh="关于我们">About</a></li>
+                <li><a href="#contact" data-en="Contact" data-zh="联系我们">Contact</a></li>
+            </ul>
+            <div class="lang-switcher">
+                <button class="lang-btn active" onclick="switchLang('en')">EN</button>
+                <button class="lang-btn" onclick="switchLang('zh')">中文</button>
+            </div>
+            <button class="mobile-menu-toggle" onclick="toggleMobileMenu()">☰</button>
+        </nav>
+    </header>
+
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1 data-en="LONGDA" data-zh="隆达">隆达</h1>
+            <p class="subtitle" data-en="Electronics Store" data-zh="电子产品商店">电子产品商店</p>
+        </div>
+    </section>
+
+    <section class="trust-badges">
+        <div class="container">
+            <div class="badges-grid">
+                <div class="badge-item">
+                    <div class="feature-icon">🛡️</div>
+                    <h4 data-en="Fully Safeguarded Funds" data-zh="资金完全保障">Fully Safeguarded Funds</h4>
+                    <p data-en="Your funds are protected and secure" data-zh="您的资金受到保护和安全保障">Your funds are protected and secure</p>
+                </div>
+                <div class="badge-item">
+                    <div class="feature-icon">⭐</div>
+                    <h4 data-en="Investment-Grade Metals" data-zh="投资级金属">Investment-Grade Metals</h4>
+                    <p data-en="Premium quality precious metals" data-zh="优质贵金属">Premium quality precious metals</p>
+                </div>
+                <div class="badge-item">
+                    <div class="feature-icon">🏛️</div>
+                    <h4 data-en="Secure Vaulting" data-zh="安全存储">Secure Vaulting</h4>
+                    <p data-en="Stored in insured vaults" data-zh="存储在保险库中">Stored in insured vaults</p>
+                </div>
+                <div class="badge-item">
+                    <div class="feature-icon">✓</div>
+                    <h4 data-en="Trusted Service" data-zh="值得信赖的服务">Trusted Service</h4>
+                    <p data-en="Professional and reliable" data-zh="专业可靠">Professional and reliable</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="features" id="features">
+        <div class="container">
+            <h2 class="section-title" data-en="WHY LONGDA" data-zh="为什么选择隆达">WHY LONGDA</h2>
+            <p class="section-subtitle" data-en="The wise way to trade precious metals" data-zh="明智的贵金属交易方式">The wise way to trade precious metals</p>
+            
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">💼</div>
+                    <h3 data-en="It's Easy" data-zh="简单易用">It's Easy</h3>
+                    <ul>
+                        <li data-en="Free to Join" data-zh="免费注册">Free to Join</li>
+                        <li data-en="24/7 Trading" data-zh="24/7 交易">24/7 Trading</li>
+                        <li data-en="Fractional Trading" data-zh="零碎交易">Fractional Trading</li>
+                        <li data-en="Multi-currency Support" data-zh="多币种支持">Multi-currency Support</li>
+                        <li data-en="Intuitive Platform" data-zh="直观平台">Intuitive Platform</li>
+                    </ul>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔒</div>
+                    <h3 data-en="It's Secure" data-zh="安全可靠">It's Secure</h3>
+                    <ul>
+                        <li data-en="Direct Ownership" data-zh="直接所有权">Direct Ownership</li>
+                        <li data-en="100% Safeguarded Funds" data-zh="100% 资金保障">100% Safeguarded Funds</li>
+                        <li data-en="Investment Grade Bullion" data-zh="投资级金条">Investment Grade Bullion</li>
+                        <li data-en="Secure Vaults" data-zh="安全金库">Secure Vaults</li>
+                        <li data-en="Enterprise Security" data-zh="企业级安全">Enterprise Security</li>
+                    </ul>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">⚡</div>
+                    <h3 data-en="It's Efficient" data-zh="高效便捷">It's Efficient</h3>
+                    <ul>
+                        <li data-en="Best Market Prices" data-zh="最佳市场价格">Best Market Prices</li>
+                        <li data-en="Multiple Precious Metals" data-zh="多种贵金属">Multiple Precious Metals</li>
+                        <li data-en="Deep Liquidity" data-zh="深度流动性">Deep Liquidity</li>
+                        <li data-en="Low Trading Fees" data-zh="低交易费用">Low Trading Fees</li>
+                        <li data-en="Fast Execution" data-zh="快速执行">Fast Execution</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="prices" id="prices">
+        <div class="container">
+            <h2 class="section-title" style="color: white;" data-en="LIVE PRECIOUS METAL PRICES" data-zh="实时贵金属价格">LIVE PRECIOUS METAL PRICES</h2>
+            <p class="section-subtitle" style="color: rgba(255,255,255,0.8);" data-en="Real-time pricing direct from the market" data-zh="来自市场的实时定价">Real-time pricing direct from the market</p>
+            
+            <div class="prices-grid">
+                <div class="price-card">
+                    <h3 data-en="Gold" data-zh="黄金">Gold</h3>
+                    <div class="price-value">$2,050</div>
+                    <p data-en="per oz" data-zh="每盎司">per oz</p>
+                </div>
+                <div class="price-card">
+                    <h3 data-en="Silver" data-zh="白银">Silver</h3>
+                    <div class="price-value">$24.50</div>
+                    <p data-en="per oz" data-zh="每盎司">per oz</p>
+                </div>
+                <div class="price-card">
+                    <h3 data-en="Platinum" data-zh="铂金">Platinum</h3>
+                    <div class="price-value">$950</div>
+                    <p data-en="per oz" data-zh="每盎司">per oz</p>
+                </div>
+                <div class="price-card">
+                    <h3 data-en="Palladium" data-zh="钯金">Palladium</h3>
+                    <div class="price-value">$1,200</div>
+                    <p data-en="per oz" data-zh="每盎司">per oz</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="product-catalog" id="products">
+        <div class="container">
+            <h2 class="section-title" data-en="PRODUCT CATALOG" data-zh="产品展示">PRODUCT CATALOG</h2>
+            <p class="section-subtitle" data-en="Electronics & PC gear — browse by category" data-zh="电子设备与电脑器材，按品类浏览">Electronics & PC gear — browse by category</p>
+            
+            <div class="catalog-filters" role="tablist">
+                <button class="filter-btn active" data-filter="all" data-en="All" data-zh="全部">All</button>
+                <button class="filter-btn" data-filter="recorder" data-en="Recorder" data-zh="录音笔">Recorder</button>
+                <button class="filter-btn" data-filter="adapter" data-en="Adapter" data-zh="转接线">Adapter</button>
+                <button class="filter-btn" data-filter="mouse" data-en="Mouse" data-zh="鼠标">Mouse</button>
+                <button class="filter-btn" data-filter="keyboard" data-en="Keyboard" data-zh="键盘">Keyboard</button>
+                <button class="filter-btn" data-filter="audio" data-en="Audio" data-zh="耳机">Audio</button>
+                <button class="filter-btn" data-filter="webcam" data-en="Webcam" data-zh="摄像头">Webcam</button>
+            </div>
+            
+            <div class="product-grid">
+                <article class="product-card" data-category="recorder">
+                    <div class="product-img"><img src="images/voice-recorder.jpg" alt="Digital Voice Recorder"></div>
+                    <span class="product-category" data-en="Recorder" data-zh="录音笔">Recorder</span>
+                    <h3 class="product-name" data-en="Digital Voice Recorder" data-zh="数码录音笔">Digital Voice Recorder</h3>
+                    <p class="product-price"><span class="price-value">¥299</span> <span class="price-unit" data-en="each" data-zh="/件">/each</span></p>
+                </article>
+                <article class="product-card" data-category="adapter">
+                    <div class="product-img"><img src="images/usb-hub.png" alt="USB-C Multiport Hub"></div>
+                    <span class="product-category" data-en="Adapter" data-zh="转接线">Adapter</span>
+                    <h3 class="product-name" data-en="USB-C Multiport Hub" data-zh="USB-C 多口扩展坞">USB-C Multiport Hub</h3>
+                    <p class="product-price"><span class="price-value">¥199</span> <span class="price-unit" data-en="each" data-zh="/件">/each</span></p>
+                </article>
+                <article class="product-card" data-category="mouse">
+                    <div class="product-img"><img src="images/wireless-mouse.jpg" alt="Wireless Ergonomic Mouse"></div>
+                    <span class="product-category" data-en="Mouse" data-zh="鼠标">Mouse</span>
+                    <h3 class="product-name" data-en="Wireless Ergonomic Mouse" data-zh="无线人体工学鼠标">Wireless Ergonomic Mouse</h3>
+                    <p class="product-price"><span class="price-value">¥129</span> <span class="price-unit" data-en="each" data-zh="/件">/each</span></p>
+                </article>
+                <article class="product-card" data-category="keyboard">
+                    <div class="product-img"><img src="images/mechanical-keyboard.jpg" alt="Compact Mechanical Keyboard"></div>
+                    <span class="product-category" data-en="Keyboard" data-zh="键盘">Keyboard</span>
+                    <h3 class="product-name" data-en="Compact Mechanical Keyboard" data-zh="紧凑机械键盘">Compact Mechanical Keyboard</h3>
+                    <p class="product-price"><span class="price-value">¥459</span> <span class="price-unit" data-en="each" data-zh="/件">/each</span></p>
+                </article>
+                <article class="product-card" data-category="adapter">
+                    <div class="product-img"><img src="images/usb-c-adapter.jpg" alt="Thunderbolt Adapter Kit"></div>
+                    <span class="product-category" data-en="Adapter" data-zh="转接线">Adapter</span>
+                    <h3 class="product-name" data-en="Thunderbolt Adapter Kit" data-zh="雷电转接线套装">Thunderbolt Adapter Kit</h3>
+                    <p class="product-price"><span class="price-value">¥168</span> <span class="price-unit" data-en="each" data-zh="/件">/each</span></p>
+                </article>
+                <article class="product-card" data-category="adapter">
+                    <div class="product-img"><img src="images/hdmi-cable.png" alt="4K HDMI Cable"></div>
+                    <span class="product-category" data-en="Adapter" data-zh="转接线">Adapter</span>
+                    <h3 class="product-name" data-en="4K HDMI Cable" data-zh="4K HDMI 高清线">4K HDMI Cable</h3>
+                    <p class="product-price"><span class="price-value">¥59</span> <span class="price-unit" data-en="each" data-zh="/件">/each</span></p>
+                </article>
+                <article class="product-card" data-category="webcam">
+                    <div class="product-img"><img src="images/webcam.png" alt="Full HD Webcam"></div>
+                    <span class="product-category" data-en="Webcam" data-zh="摄像头">Webcam</span>
+                    <h3 class="product-name" data-en="Full HD Webcam" data-zh="全高清网络摄像头">Full HD Webcam</h3>
+                    <p class="product-price"><span class="price-value">¥249</span> <span class="price-unit" data-en="each" data-zh="/件">/each</span></p>
+                </article>
+                <article class="product-card" data-category="audio">
+                    <div class="product-img"><img src="images/headset.jpg" alt="Noise-Cancelling Headset"></div>
+                    <span class="product-category" data-en="Audio" data-zh="耳机">Audio</span>
+                    <h3 class="product-name" data-en="Noise-Cancelling Headset" data-zh="降噪头戴耳机">Noise-Cancelling Headset</h3>
+                    <p class="product-price"><span class="price-value">¥399</span> <span class="price-unit" data-en="each" data-zh="/件">/each</span></p>
+                </article>
+                <article class="product-card" data-category="keyboard">
+                    <div class="product-img"><img src="images/wireless-keyboard.jpg" alt="Slim Wireless Keyboard"></div>
+                    <span class="product-category" data-en="Keyboard" data-zh="键盘">Keyboard</span>
+                    <h3 class="product-name" data-en="Slim Wireless Keyboard" data-zh="超薄无线键盘">Slim Wireless Keyboard</h3>
+                    <p class="product-price"><span class="price-value">¥189</span> <span class="price-unit" data-en="each" data-zh="/件">/each</span></p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section class="why-us" id="services">
+        <div class="container">
+            <h2 class="section-title" data-en="OUR PRODUCTS & SERVICES" data-zh="我们的产品与服务">OUR PRODUCTS & SERVICES</h2>
+            <p class="section-subtitle" data-en="Comprehensive precious metals trading solutions" data-zh="全面的贵金属交易解决方案">Comprehensive precious metals trading solutions</p>
+            
+            <div class="why-grid">
+                <div class="why-item">
+                    <h3 data-en="Physical Bullion" data-zh="实物金条">Physical Bullion</h3>
+                    <p data-en="Trade investment-grade gold, silver, platinum, and palladium bars with direct ownership and secure storage." data-zh="交易投资级黄金、白银、铂金和钯金条，享有直接所有权和安全存储。">Trade investment-grade gold, silver, platinum, and palladium bars with direct ownership and secure storage.</p>
+                </div>
+                <div class="why-item">
+                    <h3 data-en="Fractional Trading" data-zh="零碎交易">Fractional Trading</h3>
+                    <p data-en="Buy and sell precise amounts of precious metals without needing to purchase full bars or coins." data-zh="买卖精确数量的贵金属，无需购买完整的金条或硬币。">Buy and sell precise amounts of precious metals without needing to purchase full bars or coins.</p>
+                </div>
+                <div class="why-item">
+                    <h3 data-en="Secure Storage" data-zh="安全存储">Secure Storage</h3>
+                    <p data-en="Your metals are stored in fully insured, independently audited vaults in secure global locations." data-zh="您的金属存储在完全保险、独立审计的全球安全地点金库中。">Your metals are stored in fully insured, independently audited vaults in secure global locations.</p>
+                </div>
+                <div class="why-item">
+                    <h3 data-en="24/7 Trading" data-zh="24/7 交易">24/7 Trading</h3>
+                    <p data-en="Trade precious metals anytime, anywhere with our round-the-clock trading platform." data-zh="通过我们的全天候交易平台，随时随地交易贵金属。">Trade precious metals anytime, anywhere with our round-the-clock trading platform.</p>
+                </div>
+                <div class="why-item">
+                    <h3 data-en="Best Prices" data-zh="最佳价格">Best Prices</h3>
+                    <p data-en="Access competitive market prices from leading institutional metals dealers and brokers." data-zh="从领先的机构金属交易商和经纪人处获得有竞争力的市场价格。">Access competitive market prices from leading institutional metals dealers and brokers.</p>
+                </div>
+                <div class="why-item">
+                    <h3 data-en="Portfolio Management" data-zh="投资组合管理">Portfolio Management</h3>
+                    <p data-en="Track your holdings, view real-time valuations, and monitor your gains with our comprehensive dashboard." data-zh="通过我们的综合仪表板跟踪您的持仓、查看实时估值并监控您的收益。">Track your holdings, view real-time valuations, and monitor your gains with our comprehensive dashboard.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="features" id="about" style="background: var(--white);">
+        <div class="container">
+            <h2 class="section-title" data-en="ABOUT LONGDA" data-zh="关于隆达">ABOUT LONGDA</h2>
+            <div style="max-width: 800px; margin: 2rem auto; text-align: center;">
+                <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;" data-en="Longda (隆达) is an electronics store offering recording devices, adapters, computer peripherals, and everyday tech accessories." data-zh="隆达是一家电子产品商店，提供录音设备、转接线、电脑配件及日常数码周边。">隆达是一家电子产品商店，提供录音设备、转接线、电脑配件及日常数码周边。</p>
+                <p style="font-size: 1.1rem; line-height: 1.8;" data-en="We focus on reliable products, clear pricing, and a simple shopping experience for work and home." data-zh="我们注重品质可靠、价格清晰，为办公与居家提供简洁好用的购物体验。">我们注重品质可靠、价格清晰，为办公与居家提供简洁好用的购物体验。</p>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4 data-en="Longda" data-zh="隆达">隆达</h4>
+                <p data-en="Your electronics store for recorders, adapters, mice, keyboards, and more." data-zh="电子产品商店 — 录音笔、转接线、鼠标键盘等一站购齐。">电子产品商店 — 录音笔、转接线、鼠标键盘等一站购齐。</p>
+            </div>
+            <div class="footer-section">
+                <h4 data-en="Quick Links" data-zh="快速链接">Quick Links</h4>
+                <ul>
+                    <li><a href="#home" data-en="Home" data-zh="首页">Home</a></li>
+                    <li><a href="#prices" data-en="Prices" data-zh="价格">Prices</a></li>
+                    <li><a href="#features" data-en="Features" data-zh="功能">Features</a></li>
+                    <li><a href="#products" data-en="Products" data-zh="产品">Products</a></li>
+                    <li><a href="#services" data-en="Services" data-zh="服务">Services</a></li>
+                    <li><a href="#about" data-en="About" data-zh="关于我们">About</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4 data-en="Contact Us" data-zh="联系我们">Contact Us</h4>
+                <ul>
+                    <!-- <li data-en="Email: info@morninglightglobal.com" data-zh="邮箱：info@morninglightglobal.com">Email: info@morninglightglobal.com</li> -->
+                    <!-- <li data-en="Phone: +852 XXXX XXXX" data-zh="电话：+852 XXXX XXXX">Phone: +852 XXXX XXXX</li> -->
+                    <li data-en="Address: Hong Kong" data-zh="地址：香港">Address: Hong Kong</li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4 data-en="Legal" data-zh="法律信息">Legal</h4>
+                <ul>
+                    <li><a href="#" data-en="Privacy Policy" data-zh="隐私政策">Privacy Policy</a></li>
+                    <li><a href="#" data-en="Terms of Service" data-zh="服务条款">Terms of Service</a></li>
+                    <li><a href="#" data-en="Disclaimer" data-zh="免责声明">Disclaimer</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p data-en="© 2024 Longda. All rights reserved." data-zh="© 2024 隆达。保留所有权利。">© 2024 隆达。保留所有权利。</p>
+            <p style="margin-top: 0.5rem;" data-en="When you invest, your capital is at risk." data-zh="投资有风险，您的资本可能面临风险。">When you invest, your capital is at risk.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
